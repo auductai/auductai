@@ -1,0 +1,78 @@
+* {
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+    background-size: cover
+    
+}
+/* Box CSS */
+.box {
+    opacity: 80%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+
+
+}
+.box:hover{
+    opacity: 100%;
+}
+/* End Box CSS */
+
+.box1 {
+    background-color: #333;
+    color: aliceblue;
+    border: 2px solid none
+    /* color: white */
+}
+
+.box2 {
+
+    background-color: orange;
+    color: aliceblue;
+    border: 2px solid none
+}
+
+.box3 {
+    background-color: peru;
+    color: aliceblue;
+    border: 2px solid none;
+}
+
+.boxcontent {
+    width: 100%;
+    height: 100px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    padding: 10px;
+    border-top: 10px solid #333;
+    box-sizing: border-box;
+
+}
+
+h1:hover {
+    Color: orange
+}
+
+.css-backgroundclip {
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;;
+    border: 5px firebrick;
+    background-clip:padding-box;
+
+}
